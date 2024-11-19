@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.purple{
+    font-size: 14px;
+    color: #6750A4;
+    background: none;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 5px;
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    &:hover{
+        background: #E6DDFF;
+    }
+}
+.red{
+    font-size: 14px;
+    color: #CF1B1B;
+    background: none;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 5px;
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    &:hover{
+        background: #FFE1E1;
+    }
+}
+
+.add{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: flex;
+    padding: 19px;
+    border-radius: 16px;
+    background: rgba(103, 80, 164, 0.11);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
+}
+
+
+@import url(../../components/Navbar/Navbar.scss);
+@import url(../../components/Notes/Notes.scss);
+@import url(../../components/Modal/Modal.scss);
